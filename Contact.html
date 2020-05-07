@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <nav>
+			<!--logo--->
+			<a href="#" class="logo">  </a>
+			<!--menu--->
+			<ul>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="About.html" >About</a></li>
+				<li><a href="#" class="active"> Contact</a></li>
+				<li><a href="https://github.com/kwabyakoto">Projects</a></li>
+
+			</ul>
+		</nav>     
+       <section class="contact-section">   
+            <p> CONTACT ME</p>
+            <form class="contact-form" action="Contact.php" method="POST">
+        <div class ="contact-form-text">   
+            <input type ="text" name="name" placeholder="Full Name">
+            <input type ="email" name="mail" placeholder="Your Email">
+            <input type ="subject" name="subject" placeholder="Subject"> 
+            <textarea name="message" placeholder="Message"></textarea>
+        </div>  
+
+            <button class="button-submit" type="submit" name="submit"> Submit </button>
+            </form>
+    </section> 
+    </body>
+</html>
